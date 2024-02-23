@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Teste Estagiário</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://www.grafjb.com.br/_assets/imgs/favicon.png">
+
+        <style>
+
+            body {
+                font-family: "Poppins", sans-serif;
+                font-weight: normal;
+                font-style: normal;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            label,
+            input {
+                display: block;
+                margin-bottom: 10px;
+                padding: 5px;
+            }
+
+            .titulo {
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                vertical-align: middle;
+                text-align: center;
+                background: gray;
+                color: white;
+            }
+
+    form {
+        margin-top: 30px;
+    }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="titulo">
+            <img src="https://www.grafjb.com.br/_assets/imgs/logo.png" float="left" alt="logo">
+            <h1>Teste Estagiário</h1>
+        </div>
+
+        <form id="formulario">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Informe seu nome"><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Informe seu e-mail"><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" placeholder="Informe seu telefone"><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+        <div id="mensagem" style="display:none;">
+            Obrigado por seu cadastro!
+        </div>
+
+        <script src = "index.js"></script>
+
+    </body>
+
+</html>
